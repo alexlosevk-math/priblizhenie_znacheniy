@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Приближённые значения и округление</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="app">
+  <header>
+    <div>
+      <p class="eyebrow">Алгебра · 9 класс</p>
+      <h1>Приближённые значения и округление</h1>
+      <p class="lead">Выберите блок или пройдите тренажёр по порядку. Домашнее задание и дополнительная практика доступны в любой момент.</p>
+    </div>
+  </header>
+
+  <nav class="block-nav" aria-label="Разделы тренажёра">
+    <button class="nav-btn" data-nav="0">1. Значения</button>
+    <button class="nav-btn" data-nav="1">2. Погрешность</button>
+    <button class="nav-btn" data-nav="2">3. Округление</button>
+    <button class="nav-btn" data-nav="3">4. Точность</button>
+    <button class="nav-btn" data-nav="4">5. Прикидка</button>
+    <button class="nav-btn" data-nav="5">6. Итог</button>
+    <button class="nav-btn special" data-nav="homework">Домашнее задание</button>
+    <button class="nav-btn special" data-nav="extra">Доп. задания</button>
+  </nav>
+
+  <div class="progress-wrap">
+    <div class="progress-meta"><span id="sectionLabel"></span><span id="progressText"></span></div>
+    <div class="progress"><div id="progressBar"></div></div>
+  </div>
+
+  <section id="card" class="card"></section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
